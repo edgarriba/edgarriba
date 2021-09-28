@@ -1,5 +1,14 @@
 ### Hi there 👋
 
+I am the creator and co-founder of Kornia 😄
+
+<a href="https://kornia.readthedocs.io" target="_blank">
+<div align="center">
+<p align="center">
+  <img width="75%" src="https://github.com/kornia/data/raw/main/kornia_banner_pixie.png" />
+</p>
+</a>
+
 <!--
 **edgarriba/edgarriba** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
