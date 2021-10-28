@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-I am the creator and co-founder of Kornia 😄
+I am the creator and co-founder of Kornia AI 😄
 
 <a href="https://kornia.readthedocs.io" target="_blank">
 <div align="center">
@@ -10,7 +10,7 @@ I am the creator and co-founder of Kornia 😄
 </a>
 
 <p align="center">
-<img width="43%"  src="https://github-readme-stats.vercel.app/api?username=edgarriba&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=303030"/>
+<img width="43%"  src="https://github-readme-stats.vercel.app/api?username=edgarriba&count_private=true&show_icons=true&include_all_commits=true&theme=vision-friendly-dark"/>
 <img width="53%"  src="https://activity-graph.herokuapp.com/graph?username=edgarriba&theme=nord"/>
 </p>
 
