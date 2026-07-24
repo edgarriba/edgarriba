@@ -27,11 +27,12 @@ The Kornia stack, from perception down to the robot:
 
 | | Project | |
 |---|---------|---|
+| ⚡ | [`kornia-rs`](https://github.com/kornia/kornia-rs) | Low-level 3D computer vision in Rust |
+| 👁️ | [`vision-rt`](https://github.com/kornia/vision-rt) | Neural-vision runtime for NVIDIA Jetson Orin |
+| 📷 | [`sensor-rt`](https://github.com/kornia/sensor-rt) | Camera and stereo sensor drivers |
 | 🧠 | `simwa` | World-model policies for real robots, trained self-supervised. Open-sourcing soon. |
 | 🤖 | [`bubbaloop`](https://github.com/kornia/bubbaloop) | Hardware-AI agent for cameras, sensors, and robots |
 | 🗺️ | [`kornia-slam`](https://github.com/kornia/kornia-slam) | Real-time pose estimation and mapping |
-| 📷 | [`sensor-rt`](https://github.com/kornia/sensor-rt) | Camera and stereo sensor drivers |
-| ⚡ | [`kornia-rs`](https://github.com/kornia/kornia-rs) · [`vision-rt`](https://github.com/kornia/vision-rt) | 3D CV in Rust; neural vision on Jetson Orin |
 | 🐍 | [`kornia`](https://github.com/kornia/kornia) | Geometric and differentiable computer vision |
 
 ### Numbers
