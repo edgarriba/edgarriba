@@ -1,0 +1,26 @@
+# Copy to: edgarriba/edgarriba → .github/workflows/sponsorkit.yml
+name: sponsorkit
+on:
+  schedule: [{ cron: '0 6 * * *' }]
+  workflow_dispatch: {}
+  push: { branches: [main], paths: ['sponsorkit.config.ts'] }
+permissions:
+  contents: write
+concurrency: { group: sponsorkit, cancel-in-progress: true }
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - env:
+          SPONSORKIT_GITHUB_TOKEN: ${{ secrets.SPONSORS_TOKEN }}
+          SPONSORKIT_GITHUB_LOGIN: edgarriba
+        run: npx sponsorkit@latest
+      - run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add sponsors.svg sponsors.png 2>/dev/null || true
+          git diff --staged --quiet || git commit -m "chore: update sponsor wall"
+          git push

@@ -1,30 +1,72 @@
-### Hey 👋 I'm Edgar
+<!--
+  PERSONAL PROFILE README
+  Target repo: github.com/edgarriba/edgarriba  (special repo — renders on your profile page)
+  Copy this file to that repo as README.md.
+  Before publishing: verify badges render and the sponsor link points to /sponsors/kornia.
+-->
 
-Creator of [**Kornia**](https://github.com/kornia/kornia) (11K⭐, 2.9M+ downloads/mo) — differentiable computer vision, now in **Rust** and on the **edge**.
-
-💼 Staff Research Engineer at [Bonsai Robotics](https://www.bonsairobotics.ai) — robotics foundation models, sim2real
-🦀 [**kornia-rs**](https://github.com/kornia/kornia-rs) — Rust-native CV for real-time edge applications
-🤖 [**Bubbaloop**](https://github.com/kornia/bubbaloop) — Physical AI orchestration: cameras, sensors, LLMs on local hardware
-
-#### Current focus
-
-- **Robotics foundation models** — sim2real, perception for autonomous systems
-- **Rust + CV** — reimagining computer vision for performance, safety, and edge deployment
-- **Physical AI** — bridging the gap between LLMs and the real world
-- **Local-first AI** — running everything on Jetson, no cloud required
+<h1 align="center">Edgar Riba</h1>
 
 <p align="center">
-<a href="https://github.com/edgarriba">
-<img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=edgarriba&theme=github_dark"/>
-</a>
+  I build open-source tools for Physical AI.<br>
+  Perception, sensors, edge runtime, and world models that run on the robot, not in the cloud.<br>
+  Creator of <a href="https://github.com/kornia/kornia">Kornia</a>.
 </p>
 
 <p align="center">
-<a href="https://streak-stats.demolab.com?user=edgarriba">
-<img height="160" src="https://streak-stats.demolab.com?user=edgarriba&theme=dark&hide_border=true"/>
-</a>
+  <a href="https://github.com/sponsors/edgarriba">
+    <img src="https://img.shields.io/badge/Sponsor%20my%20work-❤-db61a2?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Sponsor">
+  </a>
 </p>
 
-#### Support my work
+---
 
-If Kornia or my open source tools help you, consider [sponsoring me](https://github.com/sponsors/edgarriba) ❤️
+### What I work on
+
+The Kornia stack, from perception down to the robot:
+
+| | Project | |
+|---|---------|---|
+| 🧠 | `flux-sim` / research | World-model policies for real robots, trained self-supervised |
+| 🤖 | [`bubbaloop`](https://github.com/kornia/bubbaloop) | Hardware-AI agent for cameras, sensors, and robots |
+| 🗺️ | [`kornia-slam`](https://github.com/kornia/kornia-slam) | Real-time pose estimation and mapping |
+| 📷 | [`sensor-rt`](https://github.com/kornia/sensor-rt) | Camera and stereo sensor drivers |
+| ⚡ | [`kornia-rs`](https://github.com/kornia/kornia-rs) · [`vision-rt`](https://github.com/kornia/vision-rt) | 3D CV in Rust; neural vision on Jetson Orin |
+| 🐍 | [`kornia`](https://github.com/kornia/kornia) | Geometric and differentiable computer vision |
+
+### Numbers
+
+<p align="center">
+  <img src="https://img.shields.io/github/stars/kornia/kornia?style=flat-square&label=kornia&color=0969da" alt="stars">
+  &nbsp; ~3M downloads a month &nbsp;·&nbsp; 17K+ projects depend on it &nbsp;·&nbsp; cited in 400+ papers
+</p>
+
+---
+
+### 💛 Fund the work
+
+I work on this full time. Sponsorship is what makes that possible. It pays for releases, bug fixes, and keeping the Jetson/edge builds working.
+
+If your company builds on Kornia, sponsoring helps keep it maintained. Company tiers get a logo spot, priority issues, and a say in the roadmap.
+
+<p align="center">
+  <a href="https://github.com/sponsors/edgarriba">
+    <img src="https://img.shields.io/badge/Sponsor-❤-db61a2?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Sponsor">
+  </a>
+</p>
+
+<!-- SPONSOR WALL — uncomment after the first sponsorkit run commits ./sponsors.svg
+     (needs the SPONSORS_TOKEN PAT with read:user; see sponsorkit.config.ts).
+<p align="center">
+  <a href="https://github.com/sponsors/edgarriba"><img src="./sponsors.svg" alt="Sponsors"></a>
+</p>
+-->
+
+---
+
+<p align="center">
+  <a href="https://kornia.github.io/">Docs</a> ·
+  <a href="https://github.com/kornia/kornia/discussions">Community</a> ·
+  <a href="https://arxiv.org/abs/1910.02190">Paper</a> ·
+  Barcelona 🇪🇸
+</p>
