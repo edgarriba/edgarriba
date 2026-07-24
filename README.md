@@ -68,6 +68,6 @@ If your company builds on Kornia, sponsoring helps keep it maintained. Company t
 <p align="center">
   <a href="https://kornia.github.io/">Docs</a> ·
   <a href="https://github.com/kornia/kornia/discussions">Community</a> ·
-  <a href="https://arxiv.org/abs/1910.02190">Paper</a> ·
+  <a href="https://arxiv.org/abs/2505.12425">Paper</a> ·
   Barcelona ☀️
 </p>
