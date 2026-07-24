@@ -27,7 +27,7 @@ The Kornia stack, from perception down to the robot:
 
 | | Project | |
 |---|---------|---|
-| 🧠 | `flux-sim` / research | World-model policies for real robots, trained self-supervised |
+| 🧠 | `simwa` | World-model policies for real robots, trained self-supervised. Open-sourcing soon. |
 | 🤖 | [`bubbaloop`](https://github.com/kornia/bubbaloop) | Hardware-AI agent for cameras, sensors, and robots |
 | 🗺️ | [`kornia-slam`](https://github.com/kornia/kornia-slam) | Real-time pose estimation and mapping |
 | 📷 | [`sensor-rt`](https://github.com/kornia/sensor-rt) | Camera and stereo sensor drivers |
